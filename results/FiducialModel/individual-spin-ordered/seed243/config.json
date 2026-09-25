@@ -1,0 +1,19 @@
+{
+    "run_name": "Final-ThreeComponents-GWTC5-ThreeRegimes-mix-tilt-mmin10-sigpp_low0p5-unconstrained-labels-diagonal-all-mag-rho-fixed-ta090-depth8-1k-seed243",
+    "observing_name": "O4b",
+    "date_of_run": "2026-09-14",
+    "result_dir": "/mnt/home/ahussain/Explorations/MassDependentManyComponents/FinalResults/O4b/2026-09-14-Final-ThreeComponents-GWTC5-ThreeRegimes-mix-tilt-mmin10-sigpp_low0p5-unconstrained-labels-diagonal-all-mag-rho-fixed-ta090-depth8-1k-seed243",
+    "result_csv": "/mnt/home/ahussain/Explorations/MassDependentManyComponents/FinalResults/O4b/2026-09-14-Final-ThreeComponents-GWTC5-ThreeRegimes-mix-tilt-mmin10-sigpp_low0p5-unconstrained-labels-diagonal-all-mag-rho-fixed-ta090-depth8-1k-seed243/result.csv",
+    "model_file": "/mnt/home/ahussain/Explorations/MassDependentManyComponents/FinalModels/57_three_components_three_regimes_mmin10_unconstrained_labels_diagonal_all_mag_rho_fixed_1k.py",
+    "model_file_copy": "/mnt/home/ahussain/Explorations/MassDependentManyComponents/FinalResults/O4b/2026-09-14-Final-ThreeComponents-GWTC5-ThreeRegimes-mix-tilt-mmin10-sigpp_low0p5-unconstrained-labels-diagonal-all-mag-rho-fixed-ta090-depth8-1k-seed243/model_and_priors.py",
+    "event_data_file": "/mnt/home/ahussain/Explorations/o4b_multivariate_truncated_gaussians_in_chi_1_vs_chi_2/Fits_events/2026-04-21/data_product/event_data_2026-04-21.hdf5",
+    "selection_fit_file": "/mnt/home/ahussain/Explorations/o4b_multivariate_truncated_gaussians_in_chi_1_vs_chi_2/Fits_selection/2026-02-18/selection_data_2026-04-22_final_40_all_samples.h5",
+    "num_samples": 1000,
+    "num_warmup": 1000,
+    "seed": 243,
+    "sampler_type": "nuts",
+    "max_tree_depth": 8,
+    "target_accept_prob": 0.9,
+    "use_forward_mode": false,
+    "just_prior": false
+}

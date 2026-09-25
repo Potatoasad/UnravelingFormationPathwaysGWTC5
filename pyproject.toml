@@ -1,0 +1,37 @@
+[project]
+name = "unravelingformationpathwaysgtwc5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "astropy>=7.2.0",
+    "gravpop",
+    "h5py>=3.15.1",
+    "ipykernel>=7.2.0",
+    "jax>=0.7.2,<0.8",
+    "jaxns>=2.6.9",
+    "jupyter>=1.1.1",
+    "lab>=8.6",
+    "numpyro>=0.19.0",
+    "pandas>=2.3.3",
+    "plot-helper",
+    "popsummary>=0.1.0",
+    "truncatedgaussianmixtures",
+    "truncnormkde>=0.1.0",
+    "arviz>=0.23.4",
+]
+
+[tool.uv.sources]
+truncnormkde = { git = "https://github.com/potatoasad/truncnormkde" }
+plot-helper = { git = "https://github.com/Potatoasad/plot_helper" }
+truncatedgaussianmixtures = { git = "https://github.com/Potatoasad/truncatedgaussianmixtures" }
+gravpop = { git = "https://git.ligo.org/asad.hussain/gravpop", branch = "cleanup" }
+
+[project.optional-dependencies]
+cuda12 = [
+  "jax[cuda12]>=0.7.2",
+]
+cuda12-local = [
+  "jax[cuda12-local]>=0.7.2",
+]
